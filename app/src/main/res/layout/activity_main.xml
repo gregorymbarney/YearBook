@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.duo.yearbook.MainActivity"
+    android:background="@drawable/stars">
+
+    <ImageView
+        android:id="@+id/han_imgview"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/han" />
+
+    <ImageView
+        android:id="@+id/hanchewie_imgview"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/hanchewie" />
+
+    <ImageView
+        android:id="@+id/falcon_imgview"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/han_imgview"
+        android:src="@drawable/falcon" />
+
+    <ImageView
+        android:id="@+id/carbonite"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/han_imgview"
+        android:layout_toEndOf="@+id/falcon_imgview"
+        android:layout_toRightOf="@+id/falcon_imgview"
+        android:src="@drawable/carbonite" />
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:text="Han Solo: Scoundrel, rogue, and smuggler"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@android:color/black"
+        android:textSize="48sp"
+        android:textColor="#FFFF00"
+        tools:ignore="HardcodedText" />
+
+
+</android.widget.RelativeLayout>
