@@ -58,7 +58,7 @@
         android:src="@drawable/carbonite" />
 
     <TextView
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/carbonite"
         android:text="Han Solo: Scoundrel, rogue, and smuggler"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
@@ -69,9 +69,19 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:background="@android:color/black"
-        android:textSize="48sp"
+        android:textSize="28sp"
         android:textColor="#FFFF00"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:id="@+id/aboutMe" />
+
+    <Button
+        android:id="@+id/resumebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aboutMe"
+        android:layout_centerHorizontal="true"
+        android:text="View Resume"
+        android:onClick="goToResume"/>
 
 
 </android.widget.RelativeLayout>
