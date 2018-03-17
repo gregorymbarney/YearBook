@@ -17,4 +17,10 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, Resume.class);
             startActivity(intent);
         }
+    public void goToWeather(View view)
+    {
+        Intent intent = new Intent(MainActivity.this, WeatherActivity.class);
+        startActivity(intent);
     }
+
+         }
